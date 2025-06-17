@@ -23,7 +23,7 @@ public class Main {
 
     public static String singleChar(String word) {
         String[] chars = word.split("");
-       return Arrays.toString(chars); //uso lo split come in js, ma ottengo un array di caratteri
-        //        return String.join(",", chars); // questo metodo converte l'array di caratteri, unendoli in una stringa separata da virgola
+        //return Arrays.toString(chars); //uso lo split come in js, ma ottengo un array di caratteri
+        return String.join(",", chars); // questo metodo converte l'array di caratteri, unendoli in una stringa separata da virgola
     }
 }
